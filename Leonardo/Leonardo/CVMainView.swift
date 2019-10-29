@@ -98,7 +98,7 @@ struct CVMainView: View {
                     Image(systemName: "person.3")
                 }.font(.largeTitle).padding().foregroundColor(Color(UIColor.label))
                 if isExperienceFocused {
-                    Experience(skills: [Skill(name: "Swift", level: 5),
+                    ExperienceView(skills: [Skill(name: "Swift", level: 5),
                                          Skill(name: "Objective-C", level: 4),
                                          Skill(name: "SwiftUI", level: 3),
                                          Skill(name: "Kotlin", level: 2),
@@ -106,27 +106,32 @@ struct CVMainView: View {
                                          Skill(name: "Linux", level: 4)
                     ], jobs: [
                         ProExperience(companyName: "Redison", dates: "2018 - 2019",
+                                      description: "Développement d'applications IoT (instruments musicaux) et gestion de l'équipe mobile (trois personnes).",
                                       skills: [
                                         Skill(name: "Swift", level: 5),
                                         Skill(name: "Objective-C", level: 4),
                                         Skill(name: "C++", level: 3),
                                         Skill(name: "Kotlin", level: 2)]),
                         ProExperience(companyName: "Pumpkin", dates: "2018",
+                        description: "Développement d'applications e-finance.",
                                       skills: [
                                         Skill(name: "Swift", level: 5),
                                         Skill(name: "Objective-C", level: 4)]),
                         ProExperience(companyName: "Wemanity", dates: "2016 - 2017",
+                                      description: "Consulting mobile pour divers clients requérant des applications iOS.",
                                       skills: [
                                         Skill(name: "Swift", level: 5),
                                         Skill(name: "Objective-C", level: 4),
                                         Skill(name: "C++", level: 3)]),
                         ProExperience(companyName: "Locuz Software Solutions B.V.", dates: "2011 - 2015",
+                                      description: "Ingénierie informatique: gestion du parc informatique, maitien et surveillance du réseau, développement informatique, gestion de l'équipe mobile",
                                       skills: [
                                         Skill(name: "C++", level: 2),
                                         Skill(name: "Objective-C", level: 3),
                                         Skill(name: "Linux", level: 3)])
                         
                     ])
+                        //.transition(.move(edge: .trailing))
                 }
                 AcademiaCVView(diplomas: [AcademiaDiploma(title: "titre d'ingénieur", issuer: "ENSIIE", date: "2009"),
                 AcademiaDiploma(title: "MOOC RGPD", issuer: "CNIL", date: "2019")]).padding()

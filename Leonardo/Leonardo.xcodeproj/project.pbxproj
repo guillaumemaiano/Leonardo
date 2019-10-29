@@ -13,10 +13,12 @@
 		B64ED26B234E7A000031F1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64ED26A234E7A000031F1F4 /* Assets.xcassets */; };
 		B64ED26E234E7A000031F1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64ED26D234E7A000031F1F4 /* Preview Assets.xcassets */; };
 		B64ED271234E7A000031F1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64ED26F234E7A000031F1F4 /* LaunchScreen.storyboard */; };
+		B6994E7A2367156B00A60D20 /* JobMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6994E792367156B00A60D20 /* JobMainView.swift */; };
 		B6F6735C235E554300A837C0 /* SkillsCVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6735B235E554300A837C0 /* SkillsCVView.swift */; };
 		B6F6735E235E558A00A837C0 /* AcademiaCVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6735D235E558A00A837C0 /* AcademiaCVView.swift */; };
 		B6F67360235E5B0200A837C0 /* WebSiteContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6735F235E5B0200A837C0 /* WebSiteContainerView.swift */; };
-		B6F67362235F1AF400A837C0 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F67361235F1AF400A837C0 /* Experience.swift */; };
+		B6F67362235F1AF400A837C0 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F67361235F1AF400A837C0 /* ExperienceView.swift */; };
+		B6F67364235F6AF800A837C0 /* JobDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F67363235F6AF800A837C0 /* JobDescriptionView.swift */; };
 		B6F6C51A235D27CA004C0A36 /* GeM.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F6C519235D27CA004C0A36 /* GeM.xcassets */; };
 		B6F6C51C235D300A004C0A36 /* WebPageCVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6C51B235D300A004C0A36 /* WebPageCVView.swift */; };
 /* End PBXBuildFile section */
@@ -30,10 +32,12 @@
 		B64ED26D234E7A000031F1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B64ED270234E7A000031F1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64ED272234E7A000031F1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6994E792367156B00A60D20 /* JobMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMainView.swift; sourceTree = "<group>"; };
 		B6F6735B235E554300A837C0 /* SkillsCVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCVView.swift; sourceTree = "<group>"; };
 		B6F6735D235E558A00A837C0 /* AcademiaCVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiaCVView.swift; sourceTree = "<group>"; };
 		B6F6735F235E5B0200A837C0 /* WebSiteContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSiteContainerView.swift; sourceTree = "<group>"; };
-		B6F67361235F1AF400A837C0 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		B6F67361235F1AF400A837C0 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		B6F67363235F6AF800A837C0 /* JobDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionView.swift; sourceTree = "<group>"; };
 		B6F6C519235D27CA004C0A36 /* GeM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GeM.xcassets; sourceTree = "<group>"; };
 		B6F6C51B235D300A004C0A36 /* WebPageCVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageCVView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,10 +75,12 @@
 				B64ED264234E79FD0031F1F4 /* AppDelegate.swift */,
 				B64ED266234E79FD0031F1F4 /* SceneDelegate.swift */,
 				B64ED268234E79FD0031F1F4 /* CVMainView.swift */,
+				B6F67363235F6AF800A837C0 /* JobDescriptionView.swift */,
+				B6994E792367156B00A60D20 /* JobMainView.swift */,
 				B6F6735F235E5B0200A837C0 /* WebSiteContainerView.swift */,
 				B6F6C51B235D300A004C0A36 /* WebPageCVView.swift */,
 				B6F6735B235E554300A837C0 /* SkillsCVView.swift */,
-				B6F67361235F1AF400A837C0 /* Experience.swift */,
+				B6F67361235F1AF400A837C0 /* ExperienceView.swift */,
 				B6F6735D235E558A00A837C0 /* AcademiaCVView.swift */,
 				B6F6C519235D27CA004C0A36 /* GeM.xcassets */,
 				B64ED26A234E7A000031F1F4 /* Assets.xcassets */,
@@ -168,9 +174,11 @@
 				B6F6735E235E558A00A837C0 /* AcademiaCVView.swift in Sources */,
 				B64ED265234E79FD0031F1F4 /* AppDelegate.swift in Sources */,
 				B6F6C51C235D300A004C0A36 /* WebPageCVView.swift in Sources */,
-				B6F67362235F1AF400A837C0 /* Experience.swift in Sources */,
+				B6F67362235F1AF400A837C0 /* ExperienceView.swift in Sources */,
 				B6F6735C235E554300A837C0 /* SkillsCVView.swift in Sources */,
+				B6994E7A2367156B00A60D20 /* JobMainView.swift in Sources */,
 				B64ED267234E79FD0031F1F4 /* SceneDelegate.swift in Sources */,
+				B6F67364235F6AF800A837C0 /* JobDescriptionView.swift in Sources */,
 				B64ED269234E79FD0031F1F4 /* CVMainView.swift in Sources */,
 				B6F67360235E5B0200A837C0 /* WebSiteContainerView.swift in Sources */,
 			);
